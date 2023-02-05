@@ -6,21 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <style>
-        body {background-color: #d0abb0;
+        body {background-color: #cbc2b4;
         }
-        h1   {color: #3d161c;
+        h1   {color: #3b2619;
+            text-align: center;
         }
-        h2 {color:#3d161c9a;
+        h2 {color:#8D6F53;
+            text-align: center;
         }
-        p    {color: #3b1419;
+        p    {color: #3b2619;
          margin-left: 300px;
          margin-right: 300px;
+         text-align: center;
         }
-        blockquote {color:#391319;
+        blockquote {color:#473829;
+            text-align: center;
         }
         footer{
-            color: #3d161c;
+            color: #5d5448c4;
             font-family: monospace;
+            text-align: center;
         }
         img{
             border-radius: 15px;
@@ -30,22 +35,43 @@
             margin-right: auto;
             opacity: 96%;
         }
-        </style>
+        h3{
+            color: #8D6F53;
+        }
+        .hobbies{
+            text-align: center;
+        }
+        .hobbylist{
+            color:#3b2619;
+            display: inline-block;
+            text-align: left;
+        }
+        nav{
+            color: #3b2619;
+            font-family: monospace;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>
-            <center>
             FANYI QIAN
-        </center>
         </h1>
+        <nav>
+            <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="notes.html">Notes</a>
+            </li>
+        </ul>
+        </nav>
     </header>
     <main>
     <article>
         <h2>
-            <center>
             About Me
-            </center>
         </h2>
         <p>
             Hey! My name is Fanyi Qian, and most of my friends call me <em>Jasmine</em>. 
@@ -55,6 +81,7 @@
         in school to study Interactive Media Design as a 1<sup>st</sup> year student for 
         a career change.
     </p>
+    <img src="images/IMG_1508.JPG" alt="Me" width="405" height="540" />
         <p>
             I enjoy experiencing different cultures and have traveled to nine 
         countries and regions in the world. I am a big fan of Asian cuisine, 
@@ -63,11 +90,27 @@
         a little bit of Korean and Japanese other than Chinese and English.
         As an animal lover, I donate to shelters regularly and have helped 
         rescuing stray cats a few times. I have two cats living with my parents
-        in China. Besides, I love listening to <abbr title="Rhythm and blues">
-        R&B</abbr> music and watching true crime documentaries in my spare time.
+        in China. 
          </p>
-        <img src="https://i.ibb.co/5hkDGBN/83
-            -BF097-D-A164-48-A1-8351-FD65-BF1-E8609.jpg" alt="My cat Taro" width="260" height="168" />
+         <div class="hobbies">
+            <h3>
+                My hobbies
+            </h3>
+            <ul class="hobbylist">
+                <li>
+                    Listening to <abbr title="Rhythm and blues">R&B</abbr> music 
+                </li>
+                <li>
+                    Watching true crime documentaries
+                </li>
+                <li>
+                    Traveling
+                </li>
+                   <li>
+                   Journaling
+                </li> 
+            </ul>
+        </div>
          <p>
             I believe that it is important for us to cherish every little moment
         in our lives, so I think it is nice to end this self-introduction with 
@@ -75,19 +118,15 @@
     </p>
     <br>
         <blockquote>
-            <center>
             “The future depends on what you do today.”
             <cite>- Mahatma Gandhi</cite>
-        </center>
         </blockquote>
     </article>
 </main>
 <br>
 <hr>
 <footer>
-    <center>
     Copyright &copy; Fanyi Qian, 2023
-</center>
 </footer>
 </body>
 </html>
