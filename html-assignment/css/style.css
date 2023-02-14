@@ -1,0 +1,39 @@
+body {background-color: #cbc2b4;
+    opacity: 90%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+header,footer{
+    background-color: #958672f0;
+}
+.site-title{
+    color: #63594de4;
+}
+#my-image{
+    box-shadow: 0 0 2px 1px black;
+    width: 365px;
+    height: 485px;
+}
+.hobbylist{
+    border:1px solid black;
+    list-style: square;
+}
+div ul li:nth-child(odd) {
+    background-color:#a28e737b;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul a:link,
+nav ul a:visited{
+    list-style: none;
+    text-decoration:none;
+    background-color: #cab89fc4;
+    border: 1px solid black;
+}
+nav ul a:hover,
+nav ul a:focus{
+    background-color: #4c453cc4;
+}

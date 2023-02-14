@@ -49,6 +49,7 @@ nav ul a {
     color:#662E16;
 }
 
+
 /* 
 Combinators
 Direct child selector - will only select child of the parent
@@ -67,6 +68,7 @@ h3+ul{
 h3~p{
     text-transform: uppercase;
 }
+	
 
 /* Attribute Selectors */
 [href="#treatofweek"] {
@@ -105,11 +107,11 @@ nav ul a:active{
 /* Position Selectors */
 /* first-child and last-child */
 
-aside ul li: first-child{
+aside ul li:first-child{
     font-weight:bold;
 }
 
-section ol li: last-child{
+section ol li:last-child{
     font-weight: bold;
 }
 
