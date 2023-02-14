@@ -7,7 +7,7 @@ header,footer{
     background-color: #958672f0;
 }
 .site-title{
-    color: #63594de4;
+    color: #544b41;
 }
 #my-image{
     box-shadow: 0 0 2px 1px black;
@@ -26,11 +26,12 @@ nav ul{
     list-style: none;
 }
 
+nav ul a,
 nav ul a:link,
 nav ul a:visited{
     list-style: none;
     text-decoration:none;
-    background-color: #cab89fc4;
+    background-color: antiquewhite;
     border: 1px solid black;
 }
 nav ul a:hover,
